@@ -14,3 +14,4 @@ XYZ, XYZRGB, CGO, ASC, CATIA ASC, PLY (ASC), LAS, PTS
   * https://github.com/luckybulldozer
 * http://brekel.com/brekel-pro-pointcloud-v2/
 * https://github.com/unitycoder/UnityPointCloudViewer
+ * https://github.com/unitycoder/UnityPointCloudViewer/wiki/Binary-File-Format-Structure (Regular .bin and Brekel .bin explained)
