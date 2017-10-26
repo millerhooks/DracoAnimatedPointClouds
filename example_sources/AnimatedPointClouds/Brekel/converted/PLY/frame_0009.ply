@@ -1,14 +1,11 @@
 ply
 format ascii 1.0
-comment author: Dan Tsui
+comment author: Miller Hooks
 comment object: Point Cloud
 element vertex 75951
 property float x
 property float y
 property float z
-property uchar red
-property uchar green
-property uchar blue
 end_header
 
 -0.645663 3.308596 1.850877 1.000000

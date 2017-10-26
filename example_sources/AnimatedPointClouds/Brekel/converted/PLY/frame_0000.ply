@@ -1,10 +1,13 @@
 ply
 format ascii 1.0
+comment author: Miller Hooks
+comment object: Point Cloud
 element vertex 80460
 property float x
 property float y
 property float z
 end_header
+
 -1.142818 3.283363 1.848622 1.000000
 -1.233858 3.278173 1.849379 1.000000
 -3.331331 6.082993 3.502148 1.000000
