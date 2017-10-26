@@ -2,7 +2,9 @@
 Using Draco for Animated Point Cloud rendering.
 
 # Point Cloud File Formats
-XYZ, XYZRGB, CGO, ASC, CATIA ASC, PLY (ASC), LAS, PTS
+*XYZ, XYZRGB, CGO, ASC, CATIA ASC, PLY (ASC), LAS, PTS*
+
+* https://en.wikipedia.org/wiki/PLY_(file_format)
 
 # Animated Point Cloud File Formats
 * BPC - Brekel Point Cloud 
