@@ -1,5 +1,5 @@
 # DracoAnimatedPointClouds
-Using Draco for Animated Point Cloud rendering.
+Using [Draco](https://github.com/google/draco) for Animated Point Cloud rendering.
 
 # Point Cloud File Formats
 *XYZ, XYZRGB, CGO, ASC, CATIA ASC, PLY (ASC), LAS, PTS*
@@ -26,3 +26,6 @@ Using Draco for Animated Point Cloud rendering.
 
 # Source Files
 * http://graphics.stanford.edu/data/3Dscanrep/ [The Stanford 3D Scanning Repository]
+
+# Discussion
+* https://github.com/google/draco/issues/255
