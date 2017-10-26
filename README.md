@@ -10,13 +10,20 @@ Using [Draco](https://github.com/google/draco) for Animated Point Cloud renderin
 * BPC - Brekel Point Cloud 
 * GPD - DotSwarm Project 
 * Realflow BIN
-* BGEO (Houdini pre-v12)
-* PDB (Maya)
-* PDC (Maya)
+  * http://support.nextlimit.com/display/rf2015docs/SPH+-+Binary+Loader
+* BGEO (Houdini pre-v12) 
+  * http://www.sidefx.com/docs/houdini/io/formats/geo
+* PDB (Maya) 
+  * [https://en.wikipedia.org/wiki/Protein_Data_Bank_(file_format)#Example]
+* PDC (Maya) 
+  * [Particle Disk Cache for PDB](https://knowledge.autodesk.com/support/maya/learn-explore/caas/CloudHelp/cloudhelp/2015/ENU/Maya/files/PDC-File-Format-Use-the-PDC-File-Format-htm.html)
 * PRT (Krakatoa)
+  * http://www.thinkboxsoftware.com/krak-prt-11-file-format/
 * PTC (Renderman)
+  * https://renderman.pixar.com/resources/RenderMan_20/ptcloudApi.html
 * UnityCoder Point Cloud Binary
 * PTS (Leica)
+  * http://w3.leica-geosystems.com/kb/?guid=5532D590-114C-43CD-A55F-FE79E5937CB2
 
 # Existing Animated Point Cloud Tools
 * http://dotswarm.nz/ [Abandoned]
