@@ -16,3 +16,8 @@ XYZ, XYZRGB, CGO, ASC, CATIA ASC, PLY (ASC), LAS, PTS
 * https://github.com/unitycoder/UnityPointCloudViewer
   * https://github.com/unitycoder/UnityPointCloudViewer/wiki/Binary-File-Format-Structure 
    * *Regular .bin and Brekel .bin explained*
+
+# File Format Inspection Tools
+* http://ridiculousfish.com/hexfiend/ [OSX Hex Editor] 
+* https://hexed.it/ [Online Hex Editor]
+* https://mh-nexus.de/en/hxd/ [Windows Hex Editor]
