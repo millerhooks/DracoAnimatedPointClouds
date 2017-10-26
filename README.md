@@ -9,6 +9,14 @@ Using [Draco](https://github.com/google/draco) for Animated Point Cloud renderin
 # Animated Point Cloud File Formats
 * BPC - Brekel Point Cloud 
 * GPD - DotSwarm Project 
+* Realflow BIN
+* BGEO (Houdini pre-v12)
+* PDB (Maya)
+* PDC (Maya)
+* PRT (Krakatoa)
+* PTC (Renderman)
+* UnityCoder Point Cloud Binary
+* PTS (Leica)
 
 # Existing Animated Point Cloud Tools
 * http://dotswarm.nz/ [Abandoned]
