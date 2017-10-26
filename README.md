@@ -34,10 +34,11 @@ Using [Draco](https://github.com/google/draco) for Animated Point Cloud renderin
   * https://github.com/unitycoder/UnityPointCloudViewer/wiki/Binary-File-Format-Structure 
    * *Regular .bin and Brekel .bin explained*
 
-# File Format Inspection Tools
+# File Format Inspection & Conversion Tools
 * http://ridiculousfish.com/hexfiend/ [OSX Hex Editor] 
 * https://hexed.it/ [Online Hex Editor]
 * https://mh-nexus.de/en/hxd/ [Windows Hex Editor]
+* https://github.com/dmtsui/PTS-2-PLY-Converter
 
 # Source Files
 * http://graphics.stanford.edu/data/3Dscanrep/ [The Stanford 3D Scanning Repository]
