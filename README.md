@@ -21,3 +21,6 @@ XYZ, XYZRGB, CGO, ASC, CATIA ASC, PLY (ASC), LAS, PTS
 * http://ridiculousfish.com/hexfiend/ [OSX Hex Editor] 
 * https://hexed.it/ [Online Hex Editor]
 * https://mh-nexus.de/en/hxd/ [Windows Hex Editor]
+
+# Source Files
+* http://graphics.stanford.edu/data/3Dscanrep/ [The Stanford 3D Scanning Repository]
