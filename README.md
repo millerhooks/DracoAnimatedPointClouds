@@ -26,3 +26,6 @@ Using [Draco](https://github.com/google/draco) for Animated Point Cloud renderin
 
 # Source Files
 * http://graphics.stanford.edu/data/3Dscanrep/ [The Stanford 3D Scanning Repository]
+
+# Discussion
+* https://github.com/google/draco/issues/255
