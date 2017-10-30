@@ -40,6 +40,9 @@ Using [Draco](https://github.com/google/draco) for Animated Point Cloud renderin
 * https://mh-nexus.de/en/hxd/ [Windows Hex Editor]
 * https://github.com/dmtsui/PTS-2-PLY-Converter
 
+# Point Cloud Capture
+* https://github.com/StephenGuanqi/ARKitRecorder
+
 # Source Files
 * http://graphics.stanford.edu/data/3Dscanrep/ [The Stanford 3D Scanning Repository]
 
