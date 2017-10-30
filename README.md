@@ -40,6 +40,8 @@ Using [Draco](https://github.com/google/draco) for Animated Point Cloud renderin
 * https://mh-nexus.de/en/hxd/ [Windows Hex Editor]
 * https://github.com/dmtsui/PTS-2-PLY-Converter
 * http://pointclouds.org/
+* https://codeyarns.com/2011/08/20/convert-between-ascii-and-binary-ply-file-formats/
+* http://cs.nyu.edu/~yap/classes/visual/data/ply/ply/
 
 # Point Cloud Capture
 * https://github.com/StephenGuanqi/ARKitRecorder
