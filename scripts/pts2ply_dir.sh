@@ -1,21 +1,21 @@
 #!/bin/bash
 
-PTS2PLY=../utils/pts2ply/bin/osx/pts2ply_nocolor
-SOURCE=../example_sources/AnimatedPointClouds/Brekel/BrekelKinect_capture_29_10_2016_18_09_41_Leica_PTS/
+PTS2PLY=../utils/pts2ply/bin/osx/pts2ply
+SOURCE=../example_sources/AnimatedPointClouds/Private/BrekelKinect_capture_29_10_2016_22_10_18-NO_BACKGROUND_Leica_PTS
 
 ls $SOURCE
-for file in $SOURCE*
+for file in $SOURCE/*
 do
   echo $($PTS2PLY "$file")
   echo -e "\n"
-  mv $SOURCE*.ply $SOURCE../converted/PLY
+  mv $SOURCE/*.ply $SOURCE/PLY
 done
 
-for file in $SOURCE../converted/PLY/*
+for file in $SOURCE/PLY/*
 do
-  echo $(draco_encoder -i "$file")
+  echo $(draco_encoder -cl 10 -i "$file")
   echo -e "\n"
-  mv $SOURCE../converted/PLY/*.drc $SOURCE../converted/DRC
+  mv $SOURCE/PLY/*.drc $SOURCE/DRC
 done
 
 

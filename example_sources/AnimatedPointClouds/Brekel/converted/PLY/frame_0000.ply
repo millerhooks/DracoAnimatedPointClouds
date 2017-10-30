@@ -6,6 +6,7 @@ element vertex 80460
 property float x
 property float y
 property float z
+property float confidence
 end_header
 
 -1.142818 3.283363 1.848622 1.000000

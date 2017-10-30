@@ -68,16 +68,17 @@ printf("Conversion Started...\n\n");
 
 fprintf(f_out, "ply\n");
 fprintf(f_out, "format ascii 1.0\n");
-fprintf(f_out, "comment author: Dan Tsui\n");
+fprintf(f_out, "comment author: Miller Hooks\n");
 fprintf(f_out, "comment object: Point Cloud\n");
 //lineCount minus the header in the pts file gives us the vertex count
 fprintf(f_out, "element vertex %d\n", lineCount-4);
 fprintf(f_out, "property float x\n");
 fprintf(f_out, "property float y\n");
 fprintf(f_out, "property float z\n");
-fprintf(f_out, "property uchar red\n");
-fprintf(f_out, "property uchar green\n");
-fprintf(f_out, "property uchar blue\n");
+fprintf(f_out, "property float intensity\n");
+fprintf(f_out, "property uchar int red\n");
+fprintf(f_out, "property uchar int green\n");
+fprintf(f_out, "property uchar int blue\n");
 fprintf(f_out, "end_header\n");
 
 /**************************************************************************/

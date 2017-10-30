@@ -5,3 +5,6 @@
 *.bak
 .db
 node_modules
+Ash
+Private
+cmake-build-debug
