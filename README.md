@@ -1,7 +1,7 @@
 # DracoAnimatedPointClouds
 Using [Draco](https://github.com/google/draco) for Animated Point Cloud rendering.
 
-Draco point clouds working in Unity with (keijiro/Pcx)[https://github.com/keijiro/Pcx] over here: https://github.com/millerhooks/Pcx/tree/draco_support
+Draco point clouds working in Unity with https://github.com/keijiro/Pcx over here: https://github.com/millerhooks/Pcx/tree/draco_support
 
 # Point Cloud File Formats
 *XYZ, XYZRGB, CGO, ASC, CATIA ASC, PLY (ASC), LAS, PTS*
