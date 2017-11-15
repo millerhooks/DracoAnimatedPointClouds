@@ -3,6 +3,7 @@
 PTS2PLY=../utils/pts2ply/bin/osx/pts2ply
 #SOURCE=../example_sources/AnimatedPointClouds/Private/BrekelKinect_capture_29_10_2016_22_10_18-NO_BACKGROUND_Leica_PTS
 SOURCE=/Users/miller/Desktop/DracoAnimatedPointClouds/example_sources/AnimatedPointClouds/Private/LightsSounds06_11_2017_14_31_30_Leica_PTS
+#SOURCE=../example_sources/AnimatedPointClouds/Private/Ash/ASH_PTS
 
 ls $SOURCE
 #![ -d $SOURCE/PTS ] || mkdir $SOURCE/PTS
@@ -33,9 +34,9 @@ fi
 
 for file in $SOURCE/PLY/*
 do
-  echo $(draco_encoder --skip NORMAL -qp 0 -cl 4 -i "$file" -o "$file".drc.bytes)
+  echo $(draco_encoder --skip NORMAL -point_cloud -cl 5 -qp 0 -i "$file")
   echo -e "\n"
-  mv $SOURCE/PLY/*.bytes $SOURCE/DRC
+  mv $SOURCE/PLY/$file.drc $SOURCE/DRC/$file.drc.bytes
 done
 
 

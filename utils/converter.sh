@@ -7,7 +7,7 @@ else
 fi
 
 if [[ $2 == '-sk' || true ]]; then
-  SK="--skip NORMAL --skip GENERIC"
+  SK="--skip NORMAL"
 fi
 
 if [[ $2 == '-pc' || $4 == '-pc' ]]; then
